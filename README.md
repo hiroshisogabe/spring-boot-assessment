@@ -19,4 +19,12 @@ Utilizando a IDE Eclipse para desenvolvimento, a aplicação roda facilmente exe
 Outra maneira de rodar a aplicação, é através do [maven](https://maven.apache.org/) na raiz do projeto:
 `mvn spring-boot:run`
 
-Em ambas as opções é verificado que por padrão, a aplicação rodará em http://localhos:8080 
+Em ambas as opções é verificado que por padrão, a aplicação rodará na URL http://localhos:8080
+
+### Acessando a verificação de parênteses, colchetes e chaves
+Se a aplicação estiver rodando corretamente, acesse a URL http://localhos:8080 e informe os caracteres no input.
+
+### Acessando a API
+A API permite ações para criação de Pessoas, somente como atributo o nome, e Contatos, que deve ter um tipo e o seu respectivo valor.
+
+Os métodos estão listados nas controllers de API em [/src/main/java/br/com/sogabe/assessment/api/](https://github.com/hiroshisogabe/spring-boot-assessment/tree/master/src/main/java/br/com/sogabe/assessment/api)
