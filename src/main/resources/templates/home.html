@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+	</head>
+	<body>
+		<h3>Verify brackets input</h3>
+		<form method="post">
+			Brackets: <input type="text" name="brackets" />
+			<button type="submit">Verify</button>
+		</form>
+		<h3 th:text="${status}">?</h3>
+	</body>
+</html>
