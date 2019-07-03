@@ -27,6 +27,11 @@ public class Person {
             mappedBy = "person")
     private Set<Contact> contacts = new HashSet<>();
     
+	public Person(long id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
 	public long getId() {
 		return id;
 	}
